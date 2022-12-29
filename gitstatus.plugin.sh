@@ -1,6 +1,7 @@
 # Bash bindings for gitstatus.
 
-[[ $- == *i* ]] || return  # non-interactive shell
+# Removed to allow running non-interactively
+# [[ $- == *i* ]] || return  # non-interactive shell
 
 # Starts gitstatusd in the background. Does nothing and succeeds if gitstatusd
 # is already running.

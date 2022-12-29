@@ -44,7 +44,8 @@
 #   VCS_STATUS_TAG=''
 #   VCS_STATUS_WORKDIR=/home/romka/powerlevel10k
 
-[[ -o 'interactive' ]] || 'return'
+# Removed to allow running non-interactively
+# [[ -o 'interactive' ]] || 'return'
 
 # Temporarily change options.
 'builtin' 'local' '-a' '_gitstatus_opts'
